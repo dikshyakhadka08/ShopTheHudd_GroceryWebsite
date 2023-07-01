@@ -1,0 +1,34 @@
+@use "variables" as v;
+
+@mixin anchorTag($font-size) {
+  color: black;
+  font-size: $font-size;
+}
+
+@mixin anchorTagHover {
+  color: #a5650b;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+@mixin traderCardBackgroundImg($img-url) {
+  background-image: url($img-url);
+  // background-image: v.$gradient-secondary, url($img-url);
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin incrementDecrementBtn {
+  // styles for cart item quantity decrement button
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #cccccc;
+  cursor: pointer;
+
+  &:hover {
+    color: v.$color-hover;
+  }
+}

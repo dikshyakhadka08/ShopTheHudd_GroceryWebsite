@@ -1,0 +1,393 @@
+.product-detail {
+  padding: 2rem;
+  max-width: 150rem;
+  margin: 0 auto;
+
+  .goback-btn {
+    align-self: flex-start;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: #333;
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+
+    & img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  &__header {
+    width: 100%;
+    margin-top: 30px;
+
+    h3 {
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      color: #333;
+    }
+  }
+
+  &__img--box {
+    margin: 3rem auto;
+    height: 50rem;
+    width: 50rem;
+    overflow: hidden;
+    background-color: red;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  &__overview {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right: 3rem;
+    align-self: flex-start;
+
+    h4 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #666;
+    }
+  }
+
+  &__summary {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    gap: 1.3rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 30px;
+
+    &--info {
+      width: 100%;
+      height: 3rem;
+      padding: 1rem;
+      background-color: gray;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      & img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+
+      & span {
+      }
+    }
+
+    & label {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    & select {
+      margin-bottom: 20px;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    & span {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__rating {
+    width: 100%;
+    margin-bottom: 30px;
+
+    h4 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    &--left {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      span:first-child {
+        font-size: 32px;
+        font-weight: bold;
+        color: #ff6f61;
+        margin-right: 10px;
+      }
+
+      span:last-child {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+      }
+    }
+
+    &--right {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      input[type="radio"] {
+        display: none;
+
+        &:checked + label:before {
+          content: "\2605";
+        }
+
+        &:hover + label:before {
+          content: "\2605";
+        }
+      }
+
+      label {
+        cursor: pointer;
+        margin-right: 5px;
+        font-size: 30px;
+        color: #ccc;
+
+        &:hover {
+          color: #ff6f61;
+        }
+
+        &:before {
+          content: "\2606";
+        }
+      }
+    }
+  }
+}
+
+.product-detail__summary--btn {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+
+  & button {
+    background-color: #fff;
+    border: 2px solid #0c4a6e;
+    border-radius: 4px;
+    color: #0c4a6e;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0c4a6e;
+      color: #fff;
+    }
+  }
+}
+
+.product-detail__review {
+  margin-top: 30px;
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #fff;
+    border: 2px solid #0c4a6e;
+    border-radius: 4px;
+    color: #0c4a6e;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0c4a6e;
+      color: #fff;
+    }
+  }
+}
+
+#quantity {
+  // overflow: auto;
+
+  & option {
+    padding: 10px;
+  }
+}
+
+.star-rating {
+  display: inline-block;
+  margin-top: -8rem;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  color: #ccc;
+  font-size: 40px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type="radio"]:checked ~ label {
+  color: #ffc107;
+}
+
+.pd-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.product-comment {
+  width: 60rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  position: relative;
+
+  &__user {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+    & p {
+      position: absolute;
+      left: 7%;
+      top: 2%;
+      padding-bottom: -3rem;
+    }
+  }
+
+  &__userinfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 2rem;
+    align-self: flex-end;
+    & img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &__location {
+    font-size: 1.6rem;
+    padding: 0.3rem 0 0.5rem 0;
+  }
+
+  &__verified {
+    color: #c45500;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  &__comment {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &__useful {
+    color: #565959;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+  &__review {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 2rem;
+
+    & button {
+      font-family: inherit;
+      cursor: pointer;
+      border: 1px solid rgb(185, 184, 184);
+      font-size: 1.5rem;
+      padding: 0.5rem 2rem;
+      border-radius: 5px;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: rgb(226, 225, 225);
+      }
+    }
+
+    & span {
+      padding-left: 2rem;
+      font-size: 1.6rem;
+      color: #565959;
+      cursor: pointer;
+      border-left: 1px solid gray;
+    }
+  }
+}

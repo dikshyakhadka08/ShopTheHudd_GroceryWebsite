@@ -1,0 +1,180 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.login_left {
+  width: 50%;
+  height: 50rem;
+}
+
+.login_right {
+  padding: 2rem;
+}
+
+.login_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.login_form p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login_options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.login_options a {
+  display: inline-block;
+  background-color: #eee;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login_options a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.login_form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.forgot_pw {
+  position: absolute;
+  top: 60%;
+  left: -1%;
+  font-size: 1.3rem;
+  color: #888;
+  cursor: pointer;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login_form input[type="text"],
+.login_form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.sign_in--btn {
+  align-self: center;
+  transition: all 0.3s ease;
+  background-color: #333;
+  /* background-color: #0077cc; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sign_in--btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login_linebreak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login_linebreak hr {
+  border: none;
+  height: 1px;
+  width: 50%;
+  background-color: #ddd;
+}
+
+.login_linebreak p {
+  font-size: 1rem;
+  color: #888;
+  margin: 0 20px;
+}
+
+.login_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.login_social a {
+  margin-right: 10px;
+}
+
+.login_social img {
+  width: 30px;
+  height: 30px;
+}
+
+#active {
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .login {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+
+  .login_left {
+    width: 100%;
+    height: 30rem;
+    padding-left: 2rem;
+  }
+
+  .login_right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,71 @@
+// Primary background color for header and footer: Dark gray (#333333), Secondary background color: #55647a, Primary Text color: White (#ffffff)
+// Primary hover background color: #ff0000
+
+/*
+#150734
+#0F2557
+#28559A
+#3778C2
+*/
+
+/*
+#8E793E
+#AD974F
+#231F20
+#EAEAEA
+*/
+
+$font-family-default: "Alkatra", sans-serif;
+
+$fw-sm: 400;
+$fw-md: 600;
+$fw-lg: 700;
+
+$gradient-main: linear-gradient(
+  to right bottom,
+  rgba(29, 43, 58, 0.8),
+  rgba(51, 63, 76, 0.8)
+);
+$gradient-secondary: linear-gradient(
+  to bottom,
+  rgba(62, 62, 62, 0.8),
+  rgba(35, 35, 35, 0.8)
+);
+
+$color-bg-primary: #231f20;
+$color-bg-secondary: #eaeaea;
+$color-text-primary: #ad974f;
+$color-text-secondary: #8e793e;
+$color-hover: #ff0000;
+$color-optional: #d4e0ed;
+$color-lgray: #efefef;
+$color-mgray: #999;
+$color-mdgray: #666;
+$color-products: #f1f1f1;
+$color-pink: #dc218a;
+
+$fs-topnav: 1.3rem;
+$fs-primary: 1.6rem;
+$fs-secondary: 1.3rem;
+$fs-title-lg: 2.5rem;
+$fs-title-md: 2rem;
+
+// Use a maximum of 3,4 colors and be consistent throughout the website
+// footer color options (can also be used for other parts): #f5f1e0, #f5f4f4,footer can also be black (might look better), #212a2f
+
+// https://huckberry.com/ below stated colors are extracted from this website
+// #1d2b39 this color looks good as background color with black and white theme
+// #333f4c text color if we go with the above color
+
+// https://www.everlane.com/ below stated colors are extracted from this website
+// Color options: #55647a, #000000, #8e9485, #5a4c38
+
+// Some additional color options
+/**
+#ddf1f7
+
+**/
+
+// Changes the color of the svg icons
+$svg-filter: invert(97%) sepia(10%) saturate(627%) hue-rotate(0deg)
+  brightness(106%) contrast(101%);

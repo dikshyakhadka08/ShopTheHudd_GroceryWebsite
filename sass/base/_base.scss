@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+html {
+  font-size: 62.5%;
+  font-family: $font-family-default;
+}
+
+body {
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+}
