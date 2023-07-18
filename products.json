@@ -1,0 +1,389 @@
+{
+  "delicatessen": [
+    {
+      "id": 1,
+      "name": "Prosciutto",
+      "price": 18.0,
+      "description": "Dry-cured Italian ham with a delicate flavor. Our Prosciutto is made from specially bred pigs that are fed a diet of acorns, giving the meat a rich, nutty taste. The ham is aged for over a year to produce a tender and flavorful delicacy that is perfect for any charcuterie board.",
+      "picture": "https://i.imgur.com/1cUceux.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Salami",
+      "price": 12.0,
+      "description": "Dry-cured sausage with a spicy kick. Our Salami is made from the finest cuts of pork, seasoned with a blend of herbs and spices, and then air-dried for several weeks to develop its distinct flavor. The sausage has a firm texture and a bold taste that pairs well with any cheese or bread.",
+      "picture": "https://i.imgur.com/7ktJR4d.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pate",
+      "price": 10.0,
+      "description": "Smooth and rich meat spread. Our Pate is made from a blend of pork, liver, and spices, which are slow-cooked to create a silky-smooth texture and a complex flavor profile. This classic French delicacy is perfect for spreading on crackers or toast.",
+      "picture": "https://i.imgur.com/27Rj2Py.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cheese Plate",
+      "price": 20.0,
+      "description": "Assorted selection of fine cheeses. Our Cheese Plate features a carefully curated selection of artisanal cheeses from around the world, including creamy brie, tangy goat cheese, and sharp cheddar. The plate is served with crackers, grapes, and honey for a perfect balance of flavors.",
+      "picture": "https://i.imgur.com/7LZpVdD.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Olives",
+      "price": 8.0,
+      "description": "Assorted variety of brined olives. These Olives are hand-selected and brined to perfection to achieve the perfect balance of salty and tangy flavors. Our assortment includes green olives stuffed with pimento, Kalamata olives, and black olives seasoned with herbs. They make a great addition to any antipasto platter.",
+      "picture": "https://i.imgur.com/MTApxdE.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Truffle Oil",
+      "price": 15.0,
+      "description": "Flavored oil infused with truffles. Our Truffle Oil is made from premium olive oil infused with the essence of black truffles, giving it a rich and earthy aroma. It's perfect for drizzling over pasta, pizza, or roasted vegetables to add a touch of luxury to any dish.",
+      "picture": "https://i.imgur.com/hdLtFZL.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Smoked Salmon",
+      "price": 22.0,
+      "description": "Fresh salmon fillet smoked to perfection. Our Smoked Salmon is made from fresh Atlantic salmon that is carefully cured with a blend of salt, sugar, and spices, then slowly smoked over hickory wood for a rich and smoky flavor.",
+      "picture": "https://www.example.com/smoked-salmon.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Foie Gras",
+      "price": 35.0,
+      "description": "Luxurious and delicate liver pate. Our Foie Gras is made from the liver of geese or ducks that have been specially raised to produce a rich, buttery flavor. It is seasoned with a blend of herbs and spices, then cooked and chilled to create a smooth and velvety texture.",
+      "picture": "https://www.example.com/foie-gras.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Caviar",
+      "price": 50.0,
+      "description": "Delicate roe from sturgeon fish. Our Caviar is sourced from the finest sturgeon farms, where the fish are raised in pristine conditions to produce the highest quality roe. It has a delicate and buttery flavor, with a slightly salty finish that makes it perfect for pairing with champagne.",
+      "picture": "https://www.example.com/caviar.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Charcuterie Board",
+      "price": 28.0,
+      "description": "Assorted selection of cured meats and cheeses. Our Charcuterie Board features a delicious selection of cured meats, including prosciutto, salami, and pate, as well as an assortment of fine cheeses, olives, and nuts. It is the perfect appetizer for any occasion.",
+      "picture": "https://www.example.com/charcuterie-board.jpg"
+    }
+  ]
+}
+
+// Bakery
+
+{
+  "bakery": [
+    {
+      "id": 1,
+      "name": "Croissant",
+      "price": 2.5,
+      "description": "A classic French pastry, the croissant is a flaky and buttery delight that's perfect for breakfast or any time of day. Made with layers of delicate dough and plenty of rich, creamy butter, this pastry is a treat for the senses. Whether you're enjoying it on its own or with a cup of coffee or tea, the croissant is sure to please.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Baguette",
+      "price": 3.0,
+      "description": "The baguette is a quintessential French bread that's beloved around the world for its crispy crust and soft, chewy interior. Made with simple ingredients like flour, water, and yeast, this bread is a testament to the power of simplicity. Whether you're using it to make a sandwich or simply enjoying it with a bit of butter and jam, the baguette is a delicious and versatile bread that's always a good choice.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Cinnamon Roll",
+      "price": 2.0,
+      "description": "Soft and fluffy dough swirled with cinnamon and sugar, the cinnamon roll is a classic pastry that's perfect for breakfast or as a sweet treat any time of day. With its gooey, cinnamon-spiced filling and generous layer of frosting, this pastry is a delight for the taste buds. Whether you're enjoying it fresh out of the oven or reheating it for a quick snack, the cinnamon roll is a beloved pastry that's hard to resist.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Sourdough Bread",
+      "price": 4.0,
+      "description": "Artisanal bread with a tangy flavor and chewy texture, sourdough is a bread that's as unique as it is delicious. Made with a sourdough starter, which gives the bread its distinct flavor, this bread is a favorite among bread lovers. Whether you're using it to make a sandwich or enjoying it with a bit of butter, sourdough is a bread that's always a good choice.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Croissant",
+      "price": 3.0,
+      "description": "If you're a chocolate lover, the chocolate croissant is a must-try pastry. Made with the same flaky dough as a classic croissant, this pastry is filled with rich and decadent chocolate that's sure to satisfy your sweet tooth. Whether you're enjoying it as a breakfast treat or as a snack with your afternoon coffee, the chocolate croissant is a pastry that's sure to please.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Blueberry Muffin",
+      "price": 2.5,
+      "description": "Moist and fluffy muffin studded with fresh blueberries, the blueberry muffin is a classic baked good that's perfect for breakfast or as a snack any time of day. With its sweet and fruity flavor and tender crumb, this muffin is a treat
+      for the senses.",
+    "picture": "https://via.placeholder.com/150"
+    },
+    {
+    "id": 7,
+    "name": "Apple Pie",
+    "price": 12.0,
+    "description": "A classic dessert that's perfect for any occasion, apple pie features sweet and tender apples baked inside a flaky crust. This traditional pie is a favorite among many and is often served with a dollop of whipped cream or a scoop of vanilla ice cream.",
+    "picture": "https://via.placeholder.com/150"
+    },
+    {
+    "id": 8,
+    "name": "Donut",
+    "price": 1.5,
+    "description": "A sweet and indulgent treat that's perfect for breakfast or as a snack, the donut is a classic baked good that comes in a variety of flavors and toppings. Whether you prefer glazed, chocolate-covered, or sprinkled, there's a donut out there for everyone.",
+    "picture": "https://via.placeholder.com/150"
+    },
+    {
+    "id": 9,
+    "name": "Brioche",
+    "price": 3.5,
+    "description": "A rich and buttery bread with a light and fluffy texture, brioche is a versatile baked good that can be enjoyed on its own or used as a base for sandwiches or French toast. Its delicate flavor and soft crumb make it a favorite among bread lovers.",
+    "picture": "https://via.placeholder.com/150"
+    },
+    {
+    "id": 10,
+    "name": "Pain au Chocolat",
+    "price": 3.0,
+    "description": "A delicious pastry that originated in France, pain au chocolat is a buttery croissant-like pastry filled with rich dark chocolate. This decadent treat is perfect for breakfast or as an indulgent snack any time of day.",
+    "picture": "https://via.placeholder.com/150"
+    }
+  ]
+}
+
+// Butcher
+
+{
+  "butcher": [
+    {
+      "id": 1,
+      "name": "Ribeye Steak",
+      "price": 15.0,
+      "description": "A prime cut of beef known for its exceptional marbling and rich flavor. The ribeye steak is juicy, tender, and full of succulent goodness. Whether grilled, pan-seared, or cooked to perfection, this steak is a true carnivore's delight.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Pork Chops",
+      "price": 10.0,
+      "description": "Juicy and flavorful, pork chops are a versatile meat option that can be prepared in various ways. Whether you prefer them grilled, baked, or pan-fried, these thick and tender cuts of pork are sure to satisfy your cravings.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Breast",
+      "price": 8.0,
+      "description": "Lean and protein-packed, chicken breast is a popular choice for health-conscious individuals. With its mild flavor and versatile nature, it can be grilled, baked, or used in a variety of recipes. Whether you're looking for a lean protein source or a base for flavorful dishes, chicken breast is a go-to option.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Lamb Chops",
+      "price": 12.0,
+      "description": "Tender and succulent, lamb chops offer a unique and savory taste. Known for their delicate flavor and juicy texture, they are often marinated or seasoned with herbs to enhance their natural richness. Grilled, broiled, or roasted, lamb chops make for a satisfying and elegant meal.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Ground Beef",
+      "price": 6.0,
+      "description": "A versatile staple in many kitchens, ground beef is perfect for a wide range of dishes. From juicy burgers to hearty meatballs and flavorful tacos, the possibilities are endless. With its rich flavor and variety of fat content options, ground beef is a favorite choice for many meat lovers.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Sausages",
+      "price": 5.0,
+      "description": "With their sizzling aroma and delicious flavors, sausages are a beloved choice for barbecues, breakfasts, and hearty meals. Made with a blend of quality meats, herbs, and spices, they offer a delightful combination of savory and smoky notes. Grilled, pan-fried, or simmered, sausages are a true comfort food.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Sausages",
+      "price": 5.0,
+      "description": "With their sizzling aroma and delicious flavors, sausages are a beloved choice for barbecues, breakfasts, and hearty meals. Made with a blend of quality meats, herbs, and spices, they offer a delightful combination of savory and smoky notes. Grilled, pan-fried, or simmered, sausages are a true comfort food. Enjoy them on a bun with your favorite condiments or as a tasty addition to stews and casseroles.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "name": "Turkey Breast",
+      "price": 9.0,
+      "description": "Lean and tender, turkey breast is a healthy and versatile choice. Whether roasted, sliced for sandwiches, or used as a main ingredient in various dishes, it offers a mild and delicate flavor. Perfect for holiday feasts or everyday meals, turkey breast is a nutritious option that's low in fat and high in protein.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "name": "Veal Cutlets",
+      "price": 11.0,
+      "description": "Tender and delicate, veal cutlets are a gourmet choice for meat lovers. With their mild flavor and fine texture, they can be breaded and pan-fried to perfection or used in dishes like scallopini. Veal cutlets are a culinary delight that pairs well with flavorful sauces and aromatic herbs.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "name": "Bacon",
+      "price": 7.0,
+      "description": "Crispy and savory, bacon is a beloved ingredient that adds a burst of flavor to a variety of dishes. Whether enjoyed with eggs for breakfast, wrapped around meats for added richness, or crumbled on top of salads, bacon is a versatile and irresistible addition to any meal. Indulge in its smoky goodness and savor the deliciousness it brings.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "name": "Lamb Leg",
+      "price": 13.0,
+      "description": "Impress your guests with a succulent roasted lamb leg. Known for its robust flavor and tender meat, lamb leg makes a centerpiece-worthy dish for special occasions. Seasoned with aromatic herbs and spices, slow-roasted to perfection, and served with roasted vegetables, it's a culinary delight that will leave a lasting impression.",
+      "picture": "https://via.placeholder.com/150"
+    }
+  ]
+}
+
+// Greengrocer
+
+{
+  "greengrocer": [
+    {
+      "id": 1,
+      "name": "Baby Spinach",
+      "price": 2.5,
+      "description": "Indulge in the tender and flavorful goodness of our baby spinach leaves. Packed with vitamins, minerals, and antioxidants, this nutrient-rich green is not only delicious but also incredibly beneficial for your health. Whether used in salads, smoothies, or cooked dishes, our baby spinach leaves add a vibrant touch to any meal. With their delicate texture and fresh taste, they are a versatile and nutritious choice for incorporating more greens into your diet.",
+      "picture": "https://i.imgur.com/WjYz3qA.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mixed Microgreens",
+      "price": 4.0,
+      "description": "Experience the vibrant and nutrient-packed mix of our microgreens. This delightful blend of young and tender greens includes a variety of flavorful and nutritious shoots, such as broccoli, radish, and sunflower microgreens. Bursting with concentrated flavors and an array of essential vitamins and minerals, these tiny powerhouses are a perfect addition to salads, sandwiches, or as a garnish for your favorite dishes. With their vibrant colors and delicate textures, our mixed microgreens offer a fresh and nutritious boost to your culinary creations.",
+      "picture": "https://i.imgur.com/HLnSmpO.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rainbow Carrots",
+      "price": 3.0,
+      "description": "Discover the delightful colors and sweet flavors of our rainbow carrots. These heirloom carrots come in an assortment of vibrant hues, including orange, purple, yellow, and white. Not only do they add a pop of color to your meals, but they also offer a rich array of nutrients and antioxidants. Whether roasted, steamed, or used in salads, our rainbow carrots bring a touch of whimsy and deliciousness to your culinary creations. With their natural sweetness and crisp texture, they are a delightful treat for both the eyes and the taste buds.",
+      "picture": "https://i.imgur.com/7BJtx5Z.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Purple Cauliflower",
+      "price": 5.0,
+      "description":  "Experience the striking beauty and delightful taste of our purple cauliflower. With its vibrant purple hue and tender florets, this unique vegetable is a feast for both the eyes and the palate. Not only does it add a splash of color to your dishes, but it also provides a wealth of nutritional benefits. Packed with vitamins, minerals, and antioxidants, our purple cauliflower is a versatile and healthy addition to your meals. Whether roasted, steamed, or used in creative recipes, it offers a flavorful twist that will impress and satisfy even the most discerning palates.",
+      "picture": "https://i.imgur.com/mGrAPh6.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Truffle Oil",
+      "price": 8.0,
+      "description": "Elevate your culinary creations with the exquisite flavor of our truffle oil. Infused with the rich, earthy essence of truffles, this luxurious oil adds a touch of sophistication to any dish. Drizzle it over roasted vegetables, toss it with pasta, or use it as a finishing touch for risottos and sauces. The distinct aroma and robust flavor of truffle oil create a culinary experience that is truly exceptional. Indulge in the decadence and elevate your dishes to new heights with our premium truffle oil.",
+      "picture": "https://i.imgur.com/Bd5Zk7V.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Edible Flowers",
+      "price": 3.5,
+      "description":  "Delight in the beauty and culinary possibilities of our edible flowers. This colorful and flavorful mix of meticulously selected blooms adds a touch of whimsy and elegance to your dishes. Perfect for garnishing salads, desserts, and cocktails, our edible flowers not only enhance the visual appeal of your creations but also offer a range of delicate flavors. From the subtle sweetness of pansies to the peppery notes of nasturtiums, each flower brings its own unique taste and aesthetic charm. Explore the world of edible flowers and let your creativity bloom in the kitchen.",
+      "picture": "https://i.imgur.com/ug0yPBA.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kohlrabi",
+      "price": 2.5,
+      "description": "Discover the delightful crunch and mild flavor of our kohlrabi bulbs. This versatile vegetable is a hidden gem in the culinary world, offering a unique combination of crispness and subtle sweetness. With its bulbous shape and vibrant green or purple skin, kohlrabi adds visual appeal to your dishes. Whether sliced raw and added to salads, roasted for a tender texture, or used as a nutritious alternative to root vegetables, kohlrabi brings a refreshing and satisfying element to your meals. Embrace the versatility of kohlrabi and explore new dimensions of taste and texture in your cooking.",
+      "picture": "https://i.imgur.com/mc7LZaI.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rainbow Swiss Chard",
+      "price": 3.5,
+      "description": "Immerse yourself in the vibrant colors and abundant nutrients of our rainbow Swiss chard. With its stunning array of red, yellow, and green stems and glossy, dark green leaves, this vegetable is a visual feast for the eyes. Not only does it make a beautiful addition to your plate, but it also packs a nutritional punch. Rich in vitamins, minerals, and antioxidants, Swiss chard offers a range of health benefits. From sautéing and steaming to adding it to soups and stir-fries, the tender leaves and crunchy stems of rainbow Swiss chard lend themselves to a variety of culinary creations. Elevate your meals with the colorful and nutrient-rich goodness of our Swiss chard.",
+      "picture": "https://i.imgur.com/CUwYZJ6.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Purple Potatoes",
+      "price": 2.5,
+      "description":  "Experience the hearty and flavorful nature of our purple potatoes. These vibrant tubers are not only visually appealing but also offer a delightful taste and texture. With their striking purple skin and creamy, buttery flesh, they add a pop of color and flavor to any dish. Whether boiled, mashed, roasted, or fried, purple potatoes bring a unique twist to traditional potato recipes. Packed with antioxidants and nutrients, they provide a healthy alternative to regular potatoes. From side dishes to main courses, let the robust flavor and striking appearance of our purple potatoes take your culinary creations to new heights.",
+      "picture": "https://i.imgur.com/fM3I4BZ.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Butternut Squash Noodles",
+      "price": 4.5,
+      "description": "Indulge in the low-carb deliciousness and natural sweetness of our butternut squash noodles. Made from fresh, spiralized butternut squash, these noodles offer a healthier alternative to traditional pasta. With their tender texture and delicate flavor, they provide a satisfying base for a range of dishes. Toss them with your favorite sauces, sauté them with vegetables, or use them as a creative ingredient in stir-fries and salads. Not only do butternut squash noodles contribute to a well-balanced diet, but they also bring a burst of vibrant color and irresistible taste to your meals. Embrace the versatility of butternut squash noodles and enjoy guilt-free indulgence without compromising on flavor.",
+      "picture": "https://i.imgur.com/2Qrh6aq.jpg"
+    }
+  ]
+}
+
+// Fishmonger
+{
+  "fishmonger": [
+    {
+      "id": 1,
+      "name": "Salmon Fillet",
+      "price": 12.0,
+      "description": "Indulge in the fresh and juicy goodness of our salmon fillet. Known for its rich flavor and tender texture, this high-quality fillet is perfect for grilling, baking, or pan-searing. Whether you're hosting a dinner party or preparing a healthy meal for yourself, our salmon fillet is a versatile choice that will delight your taste buds.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Tuna Steak",
+      "price": 16.0,
+      "description": "Experience the exquisite taste of our lean and flavorful tuna steak. Sourced from the finest tuna, this steak is packed with protein and Omega-3 fatty acids. Whether you prefer it grilled, seared, or raw in sushi, our tuna steak guarantees a delightful dining experience that seafood enthusiasts will appreciate.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Halibut",
+      "price": 20.0,
+      "description": "Delight in the delicate and flaky white flesh of our premium halibut. Renowned for its mild flavor and firm texture, this versatile fish lends itself well to various cooking methods. Whether you're baking, sautéing, or steaming it, our halibut promises a culinary adventure that will satisfy your seafood cravings.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Crab Legs",
+      "price": 30.0,
+      "description": "Indulge in the sweet and succulent taste of our crab legs. Harvested from the finest crabs, these meaty legs are a true delicacy. Whether you're enjoying them steamed, grilled, or dipped in butter, our crab legs are a luxurious treat that will transport you to coastal culinary bliss.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "name": "Shrimp",
+      "price": 8.0,
+      "description": "Savor the freshness and juiciness of our premium shrimp. Whether you're preparing a classic shrimp cocktail, stir-fry, or pasta dish, our shrimp will elevate your culinary creations. With their delightful taste and tender texture, these versatile crustaceans are a go-to option for seafood lovers.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "name": "Lobster Tail",
+      "price": 40.0,
+      "description": "Indulge in the rich and buttery experience of our lobster tail. Known for its luxurious taste and succulent meat, our lobster tail is perfect for special occasions or whenever you're craving a decadent treat. Whether you're steaming, grilling, or baking it, our lobster tail guarantees a memorable and luxurious dining experience.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "name": "Clams",
+      "price": 12.0,
+      "description": "Delight in the briny and juicy flavor of our clams. Whether you're using them in chowders, pastas, or enjoying them steamed on their own, our clams will transport you to the seaside with their fresh and oceanic taste. These versatile shellfish are a fantastic addition to your culinary repertoire, adding depth and richness to a variety of dishes. With their tender texture and delightful brininess, our clams are sure to satisfy your seafood cravings.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "name": "Oysters",
+      "price": 18.0,
+      "description":  "Indulge in the creamy and briny delight of our oysters. These ocean treasures are known for their exquisite flavor and smooth, velvety texture. Whether enjoyed raw on the half-shell with a squeeze of lemon, or prepared in classic dishes like Oysters Rockefeller, they offer a luxurious seafood experience that is sure to impress. With their unique taste and culinary versatility, our oysters are a true delicacy from the sea.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "name": "Sardines",
+      "price": 6.0,
+      "description":  "Discover the incredible flavor and exceptional nutritional benefits of our sardines. These small but mighty fish pack a punch with their rich and distinct taste. Whether enjoyed fresh, smoked, or canned, sardines offer a versatile and convenient option for adding a burst of flavor to salads, pasta dishes, or as a standalone appetizer. With their abundance of omega-3 fatty acids and essential nutrients, our sardines are a wholesome choice for those seeking a nutritious and flavorful seafood experience.",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "name": "Mussels",
+      "price": 10.0,
+      "description":  "Delight in the juicy and tender goodness of our mussels. These bivalve mollusks are prized for their succulent meat and delicate brininess. Whether steamed, grilled, or added to flavorful broths and pasta sauces, mussels bring a touch of elegance to any seafood dish. With their vibrant colors and exquisite taste, our mussels are a culinary delight that will transport you to the coastal shores with every bite.",
+      "picture": "https://via.placeholder.com/150"
+    }
+  ]
+}
